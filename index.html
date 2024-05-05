@@ -1,0 +1,43 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>David's App</title>
+    </head>
+    <body>
+        <div class="greeting-banner hidden">
+            <h1></h1>
+        </div>
+        <div class="login-container">
+            <h2>Please Login</h2>
+            <form class="login-form">
+              <input type="text" placeholder="Username" required maxlength="15">
+              <input type="password" placeholder="Type any password" required maxlength="24">
+              <input type="submit" value="Login">
+            </form>
+
+        </div>
+          <div class="menu-container hidden">
+            <div class="menu-item todo-list">To-Do List</div>
+            <div class="left-square hidden">
+                <form id="todo-form" class="hidden">
+                    <input type="text" placeholder="Write a To Do and Press enter" required/>
+                </form>
+                <ul id="todo-list">
+                </ul>
+            </div>
+            <div class="right-square hidden">
+                <h1></h1>
+                <ul id="done-list">
+                </ul>
+            </div>
+            <div class="menu-item weather-location">Weather & Location</div>
+            <div class="menu-item countdown">Countdown Till 축복이</div>
+          </div>
+          
+          </body>
+
+    <script src="main.js"></script>
+    <script src="backgrounds.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</html>
